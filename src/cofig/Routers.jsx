@@ -5,6 +5,7 @@ import About from '../components/About/About'
 import Product from '../components/products/product'
 import Header from '../components/header/Header'
 import Single from '../components/singlePages/single'
+import Checkout from '../components/CheckOUt/Checkout'
 
 const Reader = () => {
     return (
@@ -16,6 +17,7 @@ const Reader = () => {
                     <Route path='/about' element={<About />} />
                     <Route path='/products' element={<Product />} />
                     <Route path="/product/:id" element={<Single />} />
+                    <Route path="/checkout/:id" element={<Checkout />} />
                 </Routes>
             </BrowserRouter>
         </>

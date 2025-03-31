@@ -15,7 +15,7 @@ const About = () => {
         <br />
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est velit enim perspiciatis libero! Natus, alias soluta. Praesentium modi neque repellat sed illum harum. Placeat ut nam illum expedita quisquam. Excepturi.</p>
         <br />
-        <Button title={"Products"} />
+        <Button title={"Products"} links={'/products'}/>
       </div>
       
     </div>

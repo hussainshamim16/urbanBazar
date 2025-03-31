@@ -8,7 +8,7 @@ const Header = () => {
     <Navbar variant="dark" expand="lg" className='Naver'>
       <Container>
         {/* Brand/Logo */}
-        <Navbar.Brand href="#home"><h4>UrbanBazaar</h4></Navbar.Brand>
+        <Navbar.Brand href="/"><h4>UrbanBazaar</h4></Navbar.Brand>
         
         {/* Toggle button for mobile view */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
